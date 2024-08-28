@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(animal-7.jpg);
+  /* background-color: red; */
+  height: 100vh;
+  background-size: cover;
+  /* padding: 1rem; */
+}
+
+.hero-section button span:hover {
+  background-color: rgb(18, 117, 84);
+  border-radius: 5px;
+}
+
+/* .destination-section .rounded {
+  height: auto;
+} */
+
+.destination-section button:hover {
+  background-color: rgb(156, 62, 62) !important;
+}
+
+.destination-section button span:hover {
+  color: black;
+}
+
+footer .social-media {
+  cursor: pointer;
+}
